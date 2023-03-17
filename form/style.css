@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100%;
+    background-color: #0d1830;
+    display: grid;
+}
+
+.titulo {
+    display: flex;
+}
+
+#title {
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    padding: 5rem;
+    margin-left: 7rem;
+}
+
+.elipse {
+    width: 16px;
+    height: 16px;
+    margin-top: 7.8rem;
+    border-radius: 50px;
+    margin-left: -5rem;
+    background: #0073B0;
+}
+
+.imagem {
+    display: flex;
+
+}
+
+
+.img1 {
+    margin-left: 10rem;
+}
+
+.img2 {
+    margin-left: -3.4rem;
+}
+
+.img3 {
+    margin-left: -3.4rem;
+}
+
+.rectangle {
+    width: 480px;
+    height: 476px;
+    background-color: #fff;
+    margin-left: 10rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+#login {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    padding: 2rem;
+}
+
+#email {
+
+    width: 400px;
+    height: 48px;
+    padding-left: 34px;
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+    background-image: url(./img/EnvelopeSimple.svg);
+    margin-left: 3rem;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#password {
+    width: 400px;
+    height: 48px;
+    padding-left: 35px;
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+    background-image: url(./img/Lock.svg);
+    margin-left: 2.9rem;
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#botao {
+    width: 400px;
+    height: 48px;
+    margin-top: 2rem;
+    background: #7180B9;
+    margin-left: 2.8rem;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+#linha {
+    width: 124px;
+    height: 0px;
+    margin-left: 11.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    margin-top: 2rem;
+}
+
+#git {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 2.8rem;
+    margin-top: 2rem;
+}
+
+.gitHub {
+    display: flex;
+}
+
+#botao-git {
+    width: 244px;
+    height: 48px;
+    background: #7180B9;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#error{
+    color: #fff;
+}
